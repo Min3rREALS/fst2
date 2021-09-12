@@ -46470,30 +46470,30 @@
 0006A696                            ObjPos_GHZ1:	incbin	"objpos\ghz1.bin"
 0006ACE4                            		even
 0006ACE4                            ObjPos_GHZ2:	incbin	"objpos\ghz2.bin"
-0006B152                            		even
-0006B152                            		incbin	"objpos\ghz3 (JP1).bin"
-0006B6E0                            		even
-0006B6E0                            		incbin	"objpos\lz1 (JP1).bin"
-0006BB60                            		even
-0006BB60                            ObjPos_LZ2:	incbin	"objpos\lz2.bin"
-0006BE18                            		even
-0006BE18                            		incbin	"objpos\lz3 (JP1).bin"
-0006C3D6                            		even
-0006C3D6                            ObjPos_SBZ3:	incbin	"objpos\sbz3.bin"
-0006C8C8                            		even
-0006C8C8                            ObjPos_LZ1pf1:	incbin	"objpos\lz1pf1.bin"
-0006C8FA                            		even
-0006C8FA                            ObjPos_LZ1pf2:	incbin	"objpos\lz1pf2.bin"
-0006C92C                            		even
-0006C92C                            ObjPos_LZ2pf1:	incbin	"objpos\lz2pf1.bin"
-0006C95E                            		even
-0006C95E                            ObjPos_LZ2pf2:	incbin	"objpos\lz2pf2.bin"
-0006C990                            		even
-0006C990                            ObjPos_LZ3pf1:	incbin	"objpos\lz3pf1.bin"
-0006C9DA                            		even
-0006C9DA                            ObjPos_LZ3pf2:	incbin	"objpos\lz3pf2.bin"
-0006CA18                            		even
-0006CA18                            		incbin	"objpos\mz1 (JP1).bin"
+0006B158                            		even
+0006B158                            		incbin	"objpos\ghz3 (JP1).bin"
+0006B6E6                            		even
+0006B6E6                            		incbin	"objpos\lz1 (JP1).bin"
+0006BB66                            		even
+0006BB66                            ObjPos_LZ2:	incbin	"objpos\lz2.bin"
+0006BE1E                            		even
+0006BE1E                            		incbin	"objpos\lz3 (JP1).bin"
+0006C3DC                            		even
+0006C3DC                            ObjPos_SBZ3:	incbin	"objpos\sbz3.bin"
+0006C8CE                            		even
+0006C8CE                            ObjPos_LZ1pf1:	incbin	"objpos\lz1pf1.bin"
+0006C900                            		even
+0006C900                            ObjPos_LZ1pf2:	incbin	"objpos\lz1pf2.bin"
+0006C932                            		even
+0006C932                            ObjPos_LZ2pf1:	incbin	"objpos\lz2pf1.bin"
+0006C964                            		even
+0006C964                            ObjPos_LZ2pf2:	incbin	"objpos\lz2pf2.bin"
+0006C996                            		even
+0006C996                            ObjPos_LZ3pf1:	incbin	"objpos\lz3pf1.bin"
+0006C9E0                            		even
+0006C9E0                            ObjPos_LZ3pf2:	incbin	"objpos\lz3pf2.bin"
+0006CA1E                            		even
+0006CA1E                            		incbin	"objpos\mz1 (JP1).bin"
 0006CE3E                            		even
 0006CE3E                            ObjPos_MZ2:	incbin	"objpos\mz2.bin"
 0006D3D2                            		even
@@ -49160,4 +49160,72 @@
 0008C53E                            		even
 0008C53E                            SoundB5:	incbin	"sound/sfx/SndB5 - Ring.bin"
 0008C56C                            		even
-0008C56C                            SoundB6:	incbin	"sound/sfx/SndB6 - Spikes Move.
+0008C56C                            SoundB6:	incbin	"sound/sfx/SndB6 - Spikes Move.bin"
+0008C58A                            		even
+0008C58A                            SoundB7:	incbin	"sound/sfx/SndB7 - Rumbling.bin"
+0008C5C6                            		even
+0008C5C6                            SoundB8:	incbin	"sound/sfx/SndB8.bin"
+0008C5E4                            		even
+0008C5E4                            SoundB9:	incbin	"sound/sfx/SndB9 - Collapse.bin"
+0008C648                            		even
+0008C648                            SoundBA:	incbin	"sound/sfx/SndBA - SS Glass.bin"
+0008C672                            		even
+0008C672                            SoundBB:	incbin	"sound/sfx/SndBB - Door.bin"
+0008C69E                            		even
+0008C69E                            SoundBC:	incbin	"sound/sfx/SndBC - Teleport.bin"
+0008C6E0                            		even
+0008C6E0                            SoundBD:	incbin	"sound/sfx/SndBD - ChainStomp.bin"
+0008C734                            		even
+0008C734                            SoundBE:	incbin	"sound/sfx/SndBE - Roll.bin"
+0008C76E                            		even
+0008C76E                            SoundBF:	incbin	"sound/sfx/SndBF - Get Continue.bin"
+0008C7E0                            		even
+0008C7E0                            SoundC0:	incbin	"sound/sfx/SndC0 - Basaran Flap.bin"
+0008C80E                            		even
+0008C80E                            SoundC1:	incbin	"sound/sfx/SndC1 - Break Item.bin"
+0008C848                            		even
+0008C848                            SoundC2:	incbin	"sound/sfx/SndC2 - Drown Warning.bin"
+0008C870                            		even
+0008C870                            SoundC3:	incbin	"sound/sfx/SndC3 - Giant Ring.bin"
+0008C8EA                            		even
+0008C8EA                            SoundC4:	incbin	"sound/sfx/SndC4 - Bomb.bin"
+0008C912                            		even
+0008C912                            SoundC5:	incbin	"sound/sfx/SndC5 - Cash Register.bin"
+0008C924                            		even
+0008C924                            SoundC6:	incbin	"sound/sfx/SndC6 - Ring Loss.bin"
+0008C966                            		even
+0008C966                            SoundC7:	incbin	"sound/sfx/SndC7 - Chain Rising.bin"
+0008C994                            		even
+0008C994                            SoundC8:	incbin	"sound/sfx/SndC8 - Burning.bin"
+0008C9FC                            		even
+0008C9FC                            SoundC9:	incbin	"sound/sfx/SndC9 - Hidden Bonus.bin"
+0008CA2A                            		even
+0008CA2A                            SoundCA:	incbin	"sound/sfx/SndCA - Enter SS.bin"
+0008CA58                            		even
+0008CA58                            SoundCB:	incbin	"sound/sfx/SndCB - Wall Smash.bin"
+0008CAA4                            		even
+0008CAA4                            SoundCC:	incbin	"sound/sfx/SndCC - Spring.bin"
+0008CADE                            		even
+0008CADE                            SoundCD:	incbin	"sound/sfx/SndCD - Switch.bin"
+0008CAEC                            		even
+0008CAEC                            SoundCE:	incbin	"sound/sfx/SndCE - Ring Left Speaker.bin"
+0008CB1A                            		even
+0008CB1A                            SoundCF:	incbin	"sound/sfx/SndCF - Signpost.bin"
+0008CB4C                            		even
+0008CB4C                            SoundD0:	incbin	"sound/sfx/SndD0 - Waterfall.bin"
+0008CB86                            		even
+0008CB86                            
+0008CB86                            		; Don't let Sega sample cross $8000-byte boundary
+0008CB86                            		; (DAC driver doesn't switch banks automatically)
+00090000                            SegaPCM:	incbin	"sound/dac/sega.pcm"
+00093EDD                            SegaPCM_End
+00093EDE 00                         		even
+00093EDE                            
+00093EDE                            
+00093EDE                            
+00093EDE                            
+00093EDE                            ; end of 'ROM'
+00093EDE                            		even
+00093EDE                            EndOfRom:
+00093EDE                            
+00093EDE                            
