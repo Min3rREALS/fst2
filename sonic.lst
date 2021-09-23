@@ -49027,191 +49027,191 @@
 0007B078                            Music86:	incbin	"sound/music/Mus86 - SBZ.bin"
 0007BAAC 00                         		even
 0007BAAC                            Music87:	incbin	"sound/music/Mus87 - Invincibility.bin"
-0007CD2E                            		even
-0007CD2E                            Music88:	incbin	"sound/music/Mus88 - Extra Life.bin"
-0007CE1C                            		even
-0007CE1C                            Music89:	incbin	"sound/music/Mus89 - Special Stage.bin"
-0007D8A8                            		even
-0007D8A8                            Music8A:	incbin	"sound/music/Mus8A - Title Screen.bin"
-0007E756                            		even
-0007E756                            Music8B:	incbin	"sound/music/Mus8B - Ending.bin"
-0007E9F0                            		even
-0007E9F0                            Music8C:	incbin	"sound/music/Mus8C - Boss.bin"
-00086D9C 00                         		even
-00086D9C                            Music8D:	incbin	"sound/music/Mus8D - FZ.bin"
-00087FF6                            		even
-00087FF6                            Music8E:	incbin	"sound/music/Mus8E - Sonic Got Through.bin"
-0008849C                            		even
-0008849C                            Music8F:	incbin	"sound/music/Mus8F - Game Over.bin"
-0008ABAC 00                         		even
-0008ABAC                            Music90:	incbin	"sound/music/Mus90 - Continue Screen.bin"
-0008AD0A                            		even
-0008AD0A                            Music91:	incbin	"sound/music/Mus91 - Credits.bin"
-0008B7B2                            		even
-0008B7B2                            Music92:	incbin	"sound/music/Mus92 - Drowning.bin"
-000913F8 00                         		even
-000913F8                            Music93:	incbin	"sound/music/Mus93 - Get Emerald.bin"
-000914C6                            		even
-000914C6                            ; ---------------------------------------------------------------------------
-000914C6                            ; Sound	effect pointers
-000914C6                            ; ---------------------------------------------------------------------------
-000914C6                            SoundIndex:
-000914C6 0000 0000                  ptr_sndA0:	dc.l SoundA0
-000914CA 0000 0000                  ptr_sndA1:	dc.l SoundA1
-000914CE 0000 0000                  ptr_sndA2:	dc.l SoundA2
-000914D2 0000 0000                  ptr_sndA3:	dc.l SoundA3
-000914D6 0000 0000                  ptr_sndA4:	dc.l SoundA4
-000914DA 0000 0000                  ptr_sndA5:	dc.l SoundA5
-000914DE 0000 0000                  ptr_sndA6:	dc.l SoundA6
-000914E2 0000 0000                  ptr_sndA7:	dc.l SoundA7
-000914E6 0000 0000                  ptr_sndA8:	dc.l SoundA8
-000914EA 0000 0000                  ptr_sndA9:	dc.l SoundA9
-000914EE 0000 0000                  ptr_sndAA:	dc.l SoundAA
-000914F2 0000 0000                  ptr_sndAB:	dc.l SoundAB
-000914F6 0000 0000                  ptr_sndAC:	dc.l SoundAC
-000914FA 0000 0000                  ptr_sndAD:	dc.l SoundAD
-000914FE 0000 0000                  ptr_sndAE:	dc.l SoundAE
-00091502 0000 0000                  ptr_sndAF:	dc.l SoundAF
-00091506 0000 0000                  ptr_sndB0:	dc.l SoundB0
-0009150A 0000 0000                  ptr_sndB1:	dc.l SoundB1
-0009150E 0000 0000                  ptr_sndB2:	dc.l SoundB2
-00091512 0000 0000                  ptr_sndB3:	dc.l SoundB3
-00091516 0000 0000                  ptr_sndB4:	dc.l SoundB4
-0009151A 0000 0000                  ptr_sndB5:	dc.l SoundB5
-0009151E 0000 0000                  ptr_sndB6:	dc.l SoundB6
-00091522 0000 0000                  ptr_sndB7:	dc.l SoundB7
-00091526 0000 0000                  ptr_sndB8:	dc.l SoundB8
-0009152A 0000 0000                  ptr_sndB9:	dc.l SoundB9
-0009152E 0000 0000                  ptr_sndBA:	dc.l SoundBA
-00091532 0000 0000                  ptr_sndBB:	dc.l SoundBB
-00091536 0000 0000                  ptr_sndBC:	dc.l SoundBC
-0009153A 0000 0000                  ptr_sndBD:	dc.l SoundBD
-0009153E 0000 0000                  ptr_sndBE:	dc.l SoundBE
-00091542 0000 0000                  ptr_sndBF:	dc.l SoundBF
-00091546 0000 0000                  ptr_sndC0:	dc.l SoundC0
-0009154A 0000 0000                  ptr_sndC1:	dc.l SoundC1
-0009154E 0000 0000                  ptr_sndC2:	dc.l SoundC2
-00091552 0000 0000                  ptr_sndC3:	dc.l SoundC3
-00091556 0000 0000                  ptr_sndC4:	dc.l SoundC4
-0009155A 0000 0000                  ptr_sndC5:	dc.l SoundC5
-0009155E 0000 0000                  ptr_sndC6:	dc.l SoundC6
-00091562 0000 0000                  ptr_sndC7:	dc.l SoundC7
-00091566 0000 0000                  ptr_sndC8:	dc.l SoundC8
-0009156A 0000 0000                  ptr_sndC9:	dc.l SoundC9
-0009156E 0000 0000                  ptr_sndCA:	dc.l SoundCA
-00091572 0000 0000                  ptr_sndCB:	dc.l SoundCB
-00091576 0000 0000                  ptr_sndCC:	dc.l SoundCC
-0009157A 0000 0000                  ptr_sndCD:	dc.l SoundCD
-0009157E 0000 0000                  ptr_sndCE:	dc.l SoundCE
-00091582 0000 0000                  ptr_sndCF:	dc.l SoundCF
-00091586                            ptr_sndend
-00091586                            ; ---------------------------------------------------------------------------
-00091586                            ; Special sound effect pointers
-00091586                            ; ---------------------------------------------------------------------------
-00091586                            SpecSoundIndex:
-00091586 0000 0000                  ptr_sndD0:	dc.l SoundD0
-0009158A                            ptr_specend
-0009158A                            SoundA0:	incbin	"sound/sfx/SndA0 - Jump.bin"
-000915BE                            		even
-000915BE                            SoundA1:	incbin	"sound/sfx/SndA1 - Lamppost.bin"
-000915E8                            		even
-000915E8                            SoundA2:	incbin	"sound/sfx/SndA2.bin"
-00091608                            		even
-00091608                            SoundA3:	incbin	"sound/sfx/SndA3 - Death.bin"
-0009163A                            		even
-0009163A                            SoundA4:	incbin	"sound/sfx/SndA4 - Skid.bin"
-00091670                            		even
-00091670                            SoundA5:	incbin	"sound/sfx/SndA5.bin"
-0009169C                            		even
-0009169C                            SoundA6:	incbin	"sound/sfx/SndA6 - Hit Spikes.bin"
-000916CC                            		even
-000916CC                            SoundA7:	incbin	"sound/sfx/SndA7 - Push Block.bin"
-000916FC                            		even
-000916FC                            SoundA8:	incbin	"sound/sfx/SndA8 - SS Goal.bin"
-00091730                            		even
-00091730                            SoundA9:	incbin	"sound/sfx/SndA9 - SS Item.bin"
-00091742                            		even
-00091742                            SoundAA:	incbin	"sound/sfx/SndAA - Splash.bin"
-00091784                            		even
-00091784                            SoundAB:	incbin	"sound/sfx/SndAB.bin"
-000917A4                            		even
-000917A4                            SoundAC:	incbin	"sound/sfx/SndAC - Hit Boss.bin"
-000917BA                            		even
-000917BA                            SoundAD:	incbin	"sound/sfx/SndAD - Get Bubble.bin"
-000917F0                            		even
-000917F0                            SoundAE:	incbin	"sound/sfx/SndAE - Fireball.bin"
-0009183A                            		even
-0009183A                            SoundAF:	incbin	"sound/sfx/SndAF - Shield.bin"
-00091868                            		even
-00091868                            SoundB0:	incbin	"sound/sfx/SndB0 - Saw.bin"
-0009189A                            		even
-0009189A                            SoundB1:	incbin	"sound/sfx/SndB1 - Electric.bin"
-000918C6                            		even
-000918C6                            SoundB2:	incbin	"sound/sfx/SndB2 - Drown Death.bin"
-00091916                            		even
-00091916                            SoundB3:	incbin	"sound/sfx/SndB3 - Flamethrower.bin"
-00091960                            		even
-00091960                            SoundB4:	incbin	"sound/sfx/SndB4 - Bumper.bin"
-0009198C                            		even
-0009198C                            SoundB5:	incbin	"sound/sfx/SndB5 - Ring.bin"
-000919BA                            		even
-000919BA                            SoundB6:	incbin	"sound/sfx/SndB6 - Spikes Move.bin"
-000919D8                            		even
-000919D8                            SoundB7:	incbin	"sound/sfx/SndB7 - Rumbling.bin"
-00091A14                            		even
-00091A14                            SoundB8:	incbin	"sound/sfx/SndB8.bin"
-00091A32                            		even
-00091A32                            SoundB9:	incbin	"sound/sfx/SndB9 - Collapse.bin"
-00091A96                            		even
-00091A96                            SoundBA:	incbin	"sound/sfx/SndBA - SS Glass.bin"
-00091AC0                            		even
-00091AC0                            SoundBB:	incbin	"sound/sfx/SndBB - Door.bin"
-00091AEC                            		even
-00091AEC                            SoundBC:	incbin	"sound/sfx/SndBC - Teleport.bin"
-00091B2E                            		even
-00091B2E                            SoundBD:	incbin	"sound/sfx/SndBD - ChainStomp.bin"
-00091B82                            		even
-00091B82                            SoundBE:	incbin	"sound/sfx/SndBE - Roll.bin"
-00091BBC                            		even
-00091BBC                            SoundBF:	incbin	"sound/sfx/SndBF - Get Continue.bin"
-00091C2E                            		even
-00091C2E                            SoundC0:	incbin	"sound/sfx/SndC0 - Basaran Flap.bin"
-00091C5C                            		even
-00091C5C                            SoundC1:	incbin	"sound/sfx/SndC1 - Break Item.bin"
-00091C96                            		even
-00091C96                            SoundC2:	incbin	"sound/sfx/SndC2 - Drown Warning.bin"
-00091CBE                            		even
-00091CBE                            SoundC3:	incbin	"sound/sfx/SndC3 - Giant Ring.bin"
-00091D38                            		even
-00091D38                            SoundC4:	incbin	"sound/sfx/SndC4 - Bomb.bin"
-00091D60                            		even
-00091D60                            SoundC5:	incbin	"sound/sfx/SndC5 - Cash Register.bin"
-00091D72                            		even
-00091D72                            SoundC6:	incbin	"sound/sfx/SndC6 - Ring Loss.bin"
-00091DB4                            		even
-00091DB4                            SoundC7:	incbin	"sound/sfx/SndC7 - Chain Rising.bin"
-00091DE2                            		even
-00091DE2                            SoundC8:	incbin	"sound/sfx/SndC8 - Burning.bin"
-00091E4A                            		even
-00091E4A                            SoundC9:	incbin	"sound/sfx/SndC9 - Hidden Bonus.bin"
-00091E78                            		even
-00091E78                            SoundCA:	incbin	"sound/sfx/SndCA - Enter SS.bin"
-00091EA6                            		even
-00091EA6                            SoundCB:	incbin	"sound/sfx/SndCB - Wall Smash.bin"
-00091EF2                            		even
-00091EF2                            SoundCC:	incbin	"sound/sfx/SndCC - Spring.bin"
-00091F2C                            		even
-00091F2C                            SoundCD:	incbin	"sound/sfx/SndCD - Switch.bin"
-00091F3A                            		even
-00091F3A                            SoundCE:	incbin	"sound/sfx/SndCE - Ring Left Speaker.bin"
-00091F68                            		even
-00091F68                            SoundCF:	incbin	"sound/sfx/SndCF - Signpost.bin"
-00091F9A                            		even
-00091F9A                            SoundD0:	incbin	"sound/sfx/SndD0 - Waterfall.bin"
-00091FD4                            		even
-00091FD4                            
-00091FD4                            		; Don't let Sega sample cross $8000-byte boundary
-00091FD4                            		; (DAC driver doesn't switch banks automatically)
+0007C296                            		even
+0007C296                            Music88:	incbin	"sound/music/Mus88 - Extra Life.bin"
+0007C384                            		even
+0007C384                            Music89:	incbin	"sound/music/Mus89 - Special Stage.bin"
+0007CE10                            		even
+0007CE10                            Music8A:	incbin	"sound/music/Mus8A - Title Screen.bin"
+0007DCBE                            		even
+0007DCBE                            Music8B:	incbin	"sound/music/Mus8B - Ending.bin"
+0007DF58                            		even
+0007DF58                            Music8C:	incbin	"sound/music/Mus8C - Boss.bin"
+00088718 00                         		even
+00088718                            Music8D:	incbin	"sound/music/Mus8D - FZ.bin"
+00089972                            		even
+00089972                            Music8E:	incbin	"sound/music/Mus8E - Sonic Got Through.bin"
+00089E18                            		even
+00089E18                            Music8F:	incbin	"sound/music/Mus8F - Game Over.bin"
+0008C528 00                         		even
+0008C528                            Music90:	incbin	"sound/music/Mus90 - Continue Screen.bin"
+0008C686                            		even
+0008C686                            Music91:	incbin	"sound/music/Mus91 - Credits.bin"
+0008D12E                            		even
+0008D12E                            Music92:	incbin	"sound/music/Mus92 - Drowning.bin"
+00092D74 00                         		even
+00092D74                            Music93:	incbin	"sound/music/Mus93 - Get Emerald.bin"
+00092E42                            		even
+00092E42                            ; ---------------------------------------------------------------------------
+00092E42                            ; Sound	effect pointers
+00092E42                            ; ---------------------------------------------------------------------------
+00092E42                            SoundIndex:
+00092E42 0000 0000                  ptr_sndA0:	dc.l SoundA0
+00092E46 0000 0000                  ptr_sndA1:	dc.l SoundA1
+00092E4A 0000 0000                  ptr_sndA2:	dc.l SoundA2
+00092E4E 0000 0000                  ptr_sndA3:	dc.l SoundA3
+00092E52 0000 0000                  ptr_sndA4:	dc.l SoundA4
+00092E56 0000 0000                  ptr_sndA5:	dc.l SoundA5
+00092E5A 0000 0000                  ptr_sndA6:	dc.l SoundA6
+00092E5E 0000 0000                  ptr_sndA7:	dc.l SoundA7
+00092E62 0000 0000                  ptr_sndA8:	dc.l SoundA8
+00092E66 0000 0000                  ptr_sndA9:	dc.l SoundA9
+00092E6A 0000 0000                  ptr_sndAA:	dc.l SoundAA
+00092E6E 0000 0000                  ptr_sndAB:	dc.l SoundAB
+00092E72 0000 0000                  ptr_sndAC:	dc.l SoundAC
+00092E76 0000 0000                  ptr_sndAD:	dc.l SoundAD
+00092E7A 0000 0000                  ptr_sndAE:	dc.l SoundAE
+00092E7E 0000 0000                  ptr_sndAF:	dc.l SoundAF
+00092E82 0000 0000                  ptr_sndB0:	dc.l SoundB0
+00092E86 0000 0000                  ptr_sndB1:	dc.l SoundB1
+00092E8A 0000 0000                  ptr_sndB2:	dc.l SoundB2
+00092E8E 0000 0000                  ptr_sndB3:	dc.l SoundB3
+00092E92 0000 0000                  ptr_sndB4:	dc.l SoundB4
+00092E96 0000 0000                  ptr_sndB5:	dc.l SoundB5
+00092E9A 0000 0000                  ptr_sndB6:	dc.l SoundB6
+00092E9E 0000 0000                  ptr_sndB7:	dc.l SoundB7
+00092EA2 0000 0000                  ptr_sndB8:	dc.l SoundB8
+00092EA6 0000 0000                  ptr_sndB9:	dc.l SoundB9
+00092EAA 0000 0000                  ptr_sndBA:	dc.l SoundBA
+00092EAE 0000 0000                  ptr_sndBB:	dc.l SoundBB
+00092EB2 0000 0000                  ptr_sndBC:	dc.l SoundBC
+00092EB6 0000 0000                  ptr_sndBD:	dc.l SoundBD
+00092EBA 0000 0000                  ptr_sndBE:	dc.l SoundBE
+00092EBE 0000 0000                  ptr_sndBF:	dc.l SoundBF
+00092EC2 0000 0000                  ptr_sndC0:	dc.l SoundC0
+00092EC6 0000 0000                  ptr_sndC1:	dc.l SoundC1
+00092ECA 0000 0000                  ptr_sndC2:	dc.l SoundC2
+00092ECE 0000 0000                  ptr_sndC3:	dc.l SoundC3
+00092ED2 0000 0000                  ptr_sndC4:	dc.l SoundC4
+00092ED6 0000 0000                  ptr_sndC5:	dc.l SoundC5
+00092EDA 0000 0000                  ptr_sndC6:	dc.l SoundC6
+00092EDE 0000 0000                  ptr_sndC7:	dc.l SoundC7
+00092EE2 0000 0000                  ptr_sndC8:	dc.l SoundC8
+00092EE6 0000 0000                  ptr_sndC9:	dc.l SoundC9
+00092EEA 0000 0000                  ptr_sndCA:	dc.l SoundCA
+00092EEE 0000 0000                  ptr_sndCB:	dc.l SoundCB
+00092EF2 0000 0000                  ptr_sndCC:	dc.l SoundCC
+00092EF6 0000 0000                  ptr_sndCD:	dc.l SoundCD
+00092EFA 0000 0000                  ptr_sndCE:	dc.l SoundCE
+00092EFE 0000 0000                  ptr_sndCF:	dc.l SoundCF
+00092F02                            ptr_sndend
+00092F02                            ; ---------------------------------------------------------------------------
+00092F02                            ; Special sound effect pointers
+00092F02                            ; ---------------------------------------------------------------------------
+00092F02                            SpecSoundIndex:
+00092F02 0000 0000                  ptr_sndD0:	dc.l SoundD0
+00092F06                            ptr_specend
+00092F06                            SoundA0:	incbin	"sound/sfx/SndA0 - Jump.bin"
+00092F3A                            		even
+00092F3A                            SoundA1:	incbin	"sound/sfx/SndA1 - Lamppost.bin"
+00092F64                            		even
+00092F64                            SoundA2:	incbin	"sound/sfx/SndA2.bin"
+00092F84                            		even
+00092F84                            SoundA3:	incbin	"sound/sfx/SndA3 - Death.bin"
+00092FB6                            		even
+00092FB6                            SoundA4:	incbin	"sound/sfx/SndA4 - Skid.bin"
+00092FEC                            		even
+00092FEC                            SoundA5:	incbin	"sound/sfx/SndA5.bin"
+00093018                            		even
+00093018                            SoundA6:	incbin	"sound/sfx/SndA6 - Hit Spikes.bin"
+00093048                            		even
+00093048                            SoundA7:	incbin	"sound/sfx/SndA7 - Push Block.bin"
+00093078                            		even
+00093078                            SoundA8:	incbin	"sound/sfx/SndA8 - SS Goal.bin"
+000930AC                            		even
+000930AC                            SoundA9:	incbin	"sound/sfx/SndA9 - SS Item.bin"
+000930BE                            		even
+000930BE                            SoundAA:	incbin	"sound/sfx/SndAA - Splash.bin"
+00093100                            		even
+00093100                            SoundAB:	incbin	"sound/sfx/SndAB.bin"
+00093120                            		even
+00093120                            SoundAC:	incbin	"sound/sfx/SndAC - Hit Boss.bin"
+00093136                            		even
+00093136                            SoundAD:	incbin	"sound/sfx/SndAD - Get Bubble.bin"
+0009316C                            		even
+0009316C                            SoundAE:	incbin	"sound/sfx/SndAE - Fireball.bin"
+000931B6                            		even
+000931B6                            SoundAF:	incbin	"sound/sfx/SndAF - Shield.bin"
+000931E4                            		even
+000931E4                            SoundB0:	incbin	"sound/sfx/SndB0 - Saw.bin"
+00093216                            		even
+00093216                            SoundB1:	incbin	"sound/sfx/SndB1 - Electric.bin"
+00093242                            		even
+00093242                            SoundB2:	incbin	"sound/sfx/SndB2 - Drown Death.bin"
+00093292                            		even
+00093292                            SoundB3:	incbin	"sound/sfx/SndB3 - Flamethrower.bin"
+000932DC                            		even
+000932DC                            SoundB4:	incbin	"sound/sfx/SndB4 - Bumper.bin"
+00093308                            		even
+00093308                            SoundB5:	incbin	"sound/sfx/SndB5 - Ring.bin"
+00093336                            		even
+00093336                            SoundB6:	incbin	"sound/sfx/SndB6 - Spikes Move.bin"
+00093354                            		even
+00093354                            SoundB7:	incbin	"sound/sfx/SndB7 - Rumbling.bin"
+00093390                            		even
+00093390                            SoundB8:	incbin	"sound/sfx/SndB8.bin"
+000933AE                            		even
+000933AE                            SoundB9:	incbin	"sound/sfx/SndB9 - Collapse.bin"
+00093412                            		even
+00093412                            SoundBA:	incbin	"sound/sfx/SndBA - SS Glass.bin"
+0009343C                            		even
+0009343C                            SoundBB:	incbin	"sound/sfx/SndBB - Door.bin"
+00093468                            		even
+00093468                            SoundBC:	incbin	"sound/sfx/SndBC - Teleport.bin"
+000934AA                            		even
+000934AA                            SoundBD:	incbin	"sound/sfx/SndBD - ChainStomp.bin"
+000934FE                            		even
+000934FE                            SoundBE:	incbin	"sound/sfx/SndBE - Roll.bin"
+00093538                            		even
+00093538                            SoundBF:	incbin	"sound/sfx/SndBF - Get Continue.bin"
+000935AA                            		even
+000935AA                            SoundC0:	incbin	"sound/sfx/SndC0 - Basaran Flap.bin"
+000935D8                            		even
+000935D8                            SoundC1:	incbin	"sound/sfx/SndC1 - Break Item.bin"
+00093612                            		even
+00093612                            SoundC2:	incbin	"sound/sfx/SndC2 - Drown Warning.bin"
+0009363A                            		even
+0009363A                            SoundC3:	incbin	"sound/sfx/SndC3 - Giant Ring.bin"
+000936B4                            		even
+000936B4                            SoundC4:	incbin	"sound/sfx/SndC4 - Bomb.bin"
+000936DC                            		even
+000936DC                            SoundC5:	incbin	"sound/sfx/SndC5 - Cash Register.bin"
+000936EE                            		even
+000936EE                            SoundC6:	incbin	"sound/sfx/SndC6 - Ring Loss.bin"
+00093730                            		even
+00093730                            SoundC7:	incbin	"sound/sfx/SndC7 - Chain Rising.bin"
+0009375E                            		even
+0009375E                            SoundC8:	incbin	"sound/sfx/SndC8 - Burning.bin"
+000937C6                            		even
+000937C6                            SoundC9:	incbin	"sound/sfx/SndC9 - Hidden Bonus.bin"
+000937F4                            		even
+000937F4                            SoundCA:	incbin	"sound/sfx/SndCA - Enter SS.bin"
+00093822                            		even
+00093822                            SoundCB:	incbin	"sound/sfx/SndCB - Wall Smash.bin"
+0009386E                            		even
+0009386E                            SoundCC:	incbin	"sound/sfx/SndCC - Spring.bin"
+000938A8                            		even
+000938A8                            SoundCD:	incbin	"sound/sfx/SndCD - Switch.bin"
+000938B6                            		even
+000938B6                            SoundCE:	incbin	"sound/sfx/SndCE - Ring Left Speaker.bin"
+000938E4                            		even
+000938E4                            SoundCF:	incbin	"sound/sfx/SndCF - Signpost.bin"
+00093916                            		even
+00093916                            SoundD0:	incbin	"sound/sfx/SndD0 - Waterfall.bin"
+00093950                            		even
+00093950                            
+00093950                            		; Don't let Sega sample cross $8000-byte boundary
+00093950                            		; (DAC driver doesn't switch banks automatically)
 00098000                            SegaPCM:	incbin	"sound/dac/sega.pcm"
 0009BEDD                            SegaPCM_End
 0009BEDE 00                         		even
